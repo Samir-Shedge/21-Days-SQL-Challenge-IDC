@@ -10,8 +10,7 @@ SELECT staff_name FROM staff WHERE service = "emergency";
 SELECT week FROM services_weekly WHERE patients_request > 100;
 
 
--- Question: Find all patients admitted to 'Surgery' service with a satisfaction score below 70, 
--- showing their patient_id, name, age, and satisfaction score.
+-- Question: Find all patients admitted to 'Surgery' service with a satisfaction score below 70, showing their patient_id, name, age, and satisfaction score.
 
 SELECT 
     patient_id, name AS patient_name, age AS patient_age, satisfaction AS satisfaction_score
