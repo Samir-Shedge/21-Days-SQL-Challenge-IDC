@@ -1,3 +1,5 @@
+USE hospital;
+
 -- 1. Retrieve all columns from the `patients` table.
 SELECT * FROM patients;
 
@@ -8,4 +10,5 @@ SELECT patient_id, name AS patient_name, age AS patient_age FROM patients;
 SELECT * FROM services_weekly LIMIT 10;
 
 -- 4. List all unique hospital services available in the hospital.
-SELECT DISTINCT(service) FROM services_weekly;
+SELECT DISTINCT(service) AS hospital_service 
+FROM services_weekly;
