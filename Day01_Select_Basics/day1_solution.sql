@@ -14,4 +14,5 @@ SELECT * FROM services_weekly LIMIT 10;
 SELECT DISTINCT(service) AS hospital_service 
 FROM services_weekly;
 
+
 SELECT DISTINCT(service) AS hospital_services FROM services_weekly;
