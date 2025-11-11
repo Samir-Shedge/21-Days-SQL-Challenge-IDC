@@ -1,5 +1,3 @@
-USE hospital;
-
 -- 1. Retrieve all columns from the `patients` table.
 SELECT * FROM patients;
 
