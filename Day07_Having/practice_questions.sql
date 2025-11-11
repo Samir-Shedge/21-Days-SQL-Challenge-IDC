@@ -23,5 +23,3 @@ FROM
     staff_schedule
 GROUP BY week
 HAVING SUM(present) < 50;
-
-
