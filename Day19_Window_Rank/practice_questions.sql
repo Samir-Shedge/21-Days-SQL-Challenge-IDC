@@ -12,8 +12,6 @@ SELECT
     ) AS satisfaction_rank
 FROM patients;
 
-
-
 -- 2. Assign row numbers to staff ordered by their name.
 SELECT
     staff_id,
