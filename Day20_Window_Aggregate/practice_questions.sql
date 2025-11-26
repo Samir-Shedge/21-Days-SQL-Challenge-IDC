@@ -12,6 +12,7 @@ FROM services_weekly
 ORDER BY service, week;
 
 
+
 -- 2. Find the moving average of patient satisfaction over 4-week periods.
 SELECT
     service,
@@ -24,6 +25,7 @@ SELECT
     ) AS moving_avg_4_weeks
 FROM services_weekly
 ORDER BY service, week;
+
 
 
 -- 3. Show cumulative patient refusals by week across all services.
